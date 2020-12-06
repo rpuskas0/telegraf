@@ -139,10 +139,10 @@ var sampleConfig = `
   ## still required as placeholders if not all levels are needed to end up in
   ## a new measurement.
   # topic_column_maps = [
-	  "tag:location/tag:building/tag:level/tag:room/name"
-	  "name/tag:location/tag:scientist/field:value",
-	  "n/tag:device_ID/name",
-  ]
+  #   "tag:location/tag:building/tag:level/tag:room/name"
+  #   "name/tag:location/tag:scientist/field:value",
+  #   "n/tag:device_ID/name",
+  # ]
 
   ## QoS policy for messages
   ##   0 = at most once
